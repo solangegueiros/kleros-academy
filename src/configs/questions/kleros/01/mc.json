@@ -1,0 +1,24 @@
+[
+  {
+    "id": "kle-01-mc-01",
+    "type": "mc",
+    "question": {
+      "en": "Why did Athens have a democracy during the classical period?",
+      "es": "¿Por qué Atenas tuvo una democracia durante el período clásico?",
+      "pt": "Por que Atenas teve uma democracia durante o período clássico?"
+    },
+    "answers": [
+      { "en": "They like the Spartans", "es": "A ellos les gustan los espartanos", "pt": "Eles gostam dos espartanos" }, 	
+      { "en": "They accept that the only way to have some kind of order was to have a tyrant ruling everybody else", 
+        "es": "Aceptan que la única forma de tener algún tipo de orden es que un tirano gobierne a todos los demás.", 
+        "pt": "Eles aceitam que a única maneira de ter algum tipo de ordem era ter um tirano governando todos os outros" }, 	
+      { "en": "Because the only way is that all citizens must be trained for combat.", 
+        "es": "Porque la única forma es que todos los ciudadanos deben estar entrenados para el combate.", 
+        "pt": "Porque a única maneira é que todos os cidadãos sejam treinados para o combate." }, 	
+      { "en": "They decide to have the citizens rule themselves.", 
+        "es": "Deciden que los ciudadanos se gobiernen ellos mismos.", 
+        "pt": "Eles decidem que os cidadãos governem a si próprios." } 
+    ],
+    "correctAnswer": 3
+  }
+]

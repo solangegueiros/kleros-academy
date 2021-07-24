@@ -1,0 +1,56 @@
+{
+  "routes": [
+    {
+      "title": {
+        "en": "Kleros",
+        "es": "Kleros",
+        "pt": "Kleros"
+      },
+      "heading": true,
+      "routes": [
+        {
+          "title": {
+            "en": "Welcome",
+            "es": "¡Bienvenido(a)!",
+            "pt": "Bem-vindo(a)"
+          },
+          "path": "/courses/kleros/_/welcome"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "01 - Genesis",
+        "es": "01 - Genesis",
+        "pt": "01 - Genesis"
+      },
+      "heading": true,
+      "routes": [
+        {
+          "title": {
+            "en": "Overview",
+            "es": "Overview",
+            "pt": "Overview"
+          },
+          "path": "/courses/kleros/01/intro"
+        },
+        {
+          "title": {
+            "en": "Content",
+            "es": "Content",
+            "pt": "Content"
+          },
+          "path": "/courses/kleros/01/content"
+        },
+        {
+          "title": {
+            "en": "Module 1 Exam",
+            "es": "Módulo 1 Examen",
+            "pt": "Módulo 1 Exame"
+          },
+          "path": "/courses/kleros/01/quiz"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "kle-01-tf-01",
+    "type": "tf",
+    "question": {
+      "en": "Randomness was a key political technology throughout the history of democracy.",
+      "es": "La aleatoriedad fue una tecnología política clave a lo largo de la historia de la democracia.",
+      "pt": "A aleatoriedade foi uma tecnologia política fundamental em toda a história da democracia."
+    },
+    "correctAnswer": 1
+  },
+  {
+    "id": "kle-01-tf-02",
+    "type": "tf",
+    "question": {
+      "en": "The Founding Fathers of the United States didn't believe in democracy.",
+      "es": "Los Padres Fundadores de Estados Unidos no creían en la democracia.",
+      "pt": "Os fundadores dos Estados Unidos não acreditavam na democracia."
+    },
+    "correctAnswer": 0
+  },
+  {
+    "id": "kle-01-tf-03",
+    "type": "tf",
+    "question": {
+      "en": "Solon was a Spartan who governed Athens",
+      "es": "Solon era un espartano que gobernaba Atenas",
+      "pt": "Sólon era um espartano que governou Atenas"
+    },
+    "correctAnswer": 0
+  },
+  {
+    "id": "kle-01-tf-04",
+    "type": "tf",
+    "question": {
+      "en": "The Athenian constitution was created because people needed some kind of institutional structure, but which respected the people themselves.",
+      "es": "La constitución ateniense se creó porque la gente necesitaba algún tipo de estructura institucional, pero que respetara a la gente misma.",
+      "pt": "A constituição ateniense foi criada porque as pessoas precisavam de algum tipo de estrutura institucional, mas que respeitasse as próprias pessoas."
+    },
+    "correctAnswer": 1
+  }
+]
