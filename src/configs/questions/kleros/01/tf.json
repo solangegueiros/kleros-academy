@@ -1,6 +1,6 @@
 [
   {
-    "id": "kle-01-tf-01",
+    "id": "kleros-01-tf-01",
     "type": "tf",
     "question": {
       "en": "Randomness was a key political technology throughout the history of democracy.",
@@ -10,7 +10,7 @@
     "correctAnswer": 1
   },
   {
-    "id": "kle-01-tf-02",
+    "id": "kleros-01-tf-02",
     "type": "tf",
     "question": {
       "en": "The Founding Fathers of the United States didn't believe in democracy.",
@@ -20,7 +20,7 @@
     "correctAnswer": 0
   },
   {
-    "id": "kle-01-tf-03",
+    "id": "kleros-01-tf-03",
     "type": "tf",
     "question": {
       "en": "Solon was a Spartan who governed Athens",
@@ -30,7 +30,7 @@
     "correctAnswer": 0
   },
   {
-    "id": "kle-01-tf-04",
+    "id": "kleros-01-tf-04",
     "type": "tf",
     "question": {
       "en": "The Athenian constitution was created because people needed some kind of institutional structure, but which respected the people themselves.",

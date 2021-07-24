@@ -14,11 +14,11 @@ import {
   AcademyProjectListFactory,
   AcademyStudentQuizFactory,
   AcademyStudentsFactory,
-  AcademyWalletFactory,
   MasterNameFactory,
   StudentPortfolioFactory,
   AcademyClassDevFactory,
   AcademyClassBusinessFactory,
+  AcademyClassKlerosFactory,
 } from '@type_chain'
 
 export function useLoadAllContracts(): { loadAllContracts: () => void } {
@@ -36,19 +36,15 @@ export function useLoadAllContracts(): { loadAllContracts: () => void } {
           AcademyProjectList,
           AcademyStudentQuiz,
           AcademyStudents,
-          AcademyWallet,
           Business,
           Developer,
+          Kleros,
           MasterName,
         } = CONTRACT_ADDRESSES[chainId]
 
         // Load AcademyStudentsSC
         const AcademyStudentsSC = AcademyStudentsFactory.connect(AcademyStudents, signer)
         loadContract('AcademyStudents', AcademyStudentsSC)
-
-        // Load AcademyWalletSC
-        const AcademyWalletSC = AcademyWalletFactory.connect(AcademyWallet, signer)
-        loadContract('AcademyWallet', AcademyWalletSC)
 
         // Load AcademyClassListSC
         const AcademyClassListSC = AcademyClassListFactory.connect(AcademyClassList, signer)
@@ -71,6 +67,8 @@ export function useLoadAllContracts(): { loadAllContracts: () => void } {
         loadContract('Developer', DeveloperSC)
         const BusinessSC = AcademyClassBusinessFactory.connect(Business, signer)
         loadContract('Business', BusinessSC)
+        const KlerosSC = AcademyClassKlerosFactory.connect(Kleros, signer)
+        loadContract('Kleros', KlerosSC)
 
         const isAccountAdmin = await AcademyClassListSC.hasRole(DEFAULT_ADMIN_ROLE, account)
         dispatch(setAdmin(isAccountAdmin))

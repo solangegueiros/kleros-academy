@@ -7,11 +7,11 @@ import {
   AcademyProjectListType as AcademyProjectList,
   AcademyStudentQuizType as AcademyStudentQuiz,
   AcademyStudentsType as AcademyStudents,
-  AcademyWalletType as AcademyWallet,
   MasterNameType as MasterName,
   StudentPortfolioType as StudentPortfolio,
   AcademyClassDevType as Developer,
   AcademyClassBusinessType as Business,
+  AcademyClassKlerosType as Kleros,
 } from '@type_chain'
 
 export type ContractFactoryType =
@@ -20,11 +20,11 @@ export type ContractFactoryType =
   | AcademyProjectList
   | AcademyStudentQuiz
   | AcademyStudents
-  | AcademyWallet
   | MasterName
   | StudentPortfolio
   | Developer
   | Business
+  | Kleros
 
 export type ContractNameType =
   | 'AcademyClassList'
@@ -32,11 +32,11 @@ export type ContractNameType =
   | 'AcademyProjectList'
   | 'AcademyStudentQuiz'
   | 'AcademyStudents'
-  | 'AcademyWallet'
   | 'MasterName'
   | 'StudentPortfolio'
   | 'Developer'
   | 'Business'
+  | 'Kleros'
 
 type AllContractsType = {
   AcademyClassList: {
@@ -59,10 +59,6 @@ type AllContractsType = {
     name: 'AcademyStudents'
     contract: AcademyStudents
   }
-  AcademyWallet: {
-    name: 'AcademyWallet'
-    contract: AcademyWallet
-  }
   MasterName: {
     name: 'MasterName'
     contract: MasterName
@@ -78,6 +74,10 @@ type AllContractsType = {
   Business: {
     name: 'Business'
     contract: Business
+  }
+  Kleros: {
+    name: 'Kleros'
+    contract: Kleros
   }
 }
 
@@ -102,10 +102,6 @@ export const INITIAL_CONTRACTS: AllContractsType = {
     name: 'AcademyStudents',
     contract: null,
   },
-  AcademyWallet: {
-    name: 'AcademyWallet',
-    contract: null,
-  },
   MasterName: {
     name: 'MasterName',
     contract: null,
@@ -120,6 +116,10 @@ export const INITIAL_CONTRACTS: AllContractsType = {
   },
   Business: {
     name: 'Business',
+    contract: null,
+  },
+  Kleros: {
+    name: 'Kleros',
     contract: null,
   },
 }

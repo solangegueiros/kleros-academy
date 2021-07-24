@@ -3,10 +3,10 @@ type ContractNameType =
   | 'AcademyProjectList'
   | 'AcademyStudentQuiz'
   | 'AcademyStudents'
-  | 'AcademyWallet'
   | 'MasterName'
   | 'Developer'
   | 'Business'
+  | 'Kleros'
 
 export type DeployedNetworksType = 1337 | 31
 
@@ -51,13 +51,11 @@ export const CONTRACT_ADDRESSES: Record<DeployedNetworksType, Record<ContractNam
     AcademyProjectList: process.env.NEXT_PUBLIC_ACADEMY_PROJECT_LIST,
     AcademyStudentQuiz: process.env.NEXT_PUBLIC_ACADEMY_STUDENT_QUIZ,
     AcademyStudents: process.env.NEXT_PUBLIC_ACADEMY_STUDENTS,
-    AcademyWallet: process.env.NEXT_PUBLIC_ACADEMY_WALLET,
     MasterName: process.env.NEXT_PUBLIC_MASTER_NAME,
     Developer: COURSE_ADDRESSES[31].Developer,
     Business: COURSE_ADDRESSES[31].Business,
   },
   1337: {
-    AcademyWallet: process.env.NEXT_PUBLIC_LOCAL_ACADEMY_WALLET,
     AcademyProjectList: process.env.NEXT_PUBLIC_LOCAL_ACADEMY_PROJECT_LIST,
     AcademyStudents: process.env.NEXT_PUBLIC_LOCAL_ACADEMY_STUDENTS,
     AcademyClassList: process.env.NEXT_PUBLIC_LOCAL_ACADEMY_CLASS_LIST,

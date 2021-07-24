@@ -6,7 +6,7 @@ import { GetStaticProps } from 'next'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
-import { Layout, Seo, AcademyWallet } from '@components'
+import { Layout, Seo } from '@components'
 import { CONTRACTS } from '@components/Contracts'
 import { Web3Context } from '@context/Web3Provider'
 import { useAppSelector } from '@store'
@@ -29,8 +29,7 @@ const Portfolio = (): JSX.Element => {
         <Box>Portfolio page is for students</Box>
       ) : (
         <SimpleGrid columns={{ md: 2 }} gap={4}>
-          <AcademyWallet />
-
+          
           {PortfolioProjectComponents}
         </SimpleGrid>
       )}
