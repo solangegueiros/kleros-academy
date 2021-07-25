@@ -1,20 +1,21 @@
-import { Box, Flex, Center, Heading, Image, Text, useColorModeValue, VStack, SimpleGrid } from '@chakra-ui/react'
+// import { Box, Flex, Center, Heading, Image, Text, useColorModeValue, VStack, SimpleGrid } from '@chakra-ui/react'
+import { Box, Center, Heading, Image, Text, useColorModeValue, VStack, SimpleGrid } from '@chakra-ui/react'
 import { GetStaticProps } from 'next'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 import { Container, Layout, Seo } from '@components'
-import { useGradient } from '@hooks/useGradient'
+// import { useGradient } from '@hooks/useGradient'
 
 const Home = (): JSX.Element => {
-  const gradient1 = useGradient('to-r')
-  const gradient2 = useGradient('to-l')
+  // const gradient1 = useGradient('to-r')
+  // const gradient2 = useGradient('to-l')
 
   const { t } = useTranslation('common')
 
   return (
     <Layout isStretched>
-      <Seo title={t`home`} description='Rsk Academy' />
+      <Seo title={t`home`} description='Kleros Academy' />
       <Box
         bgGradient={useColorModeValue(
           'linear(to-br,primary.500,primary.300,light.500)',
@@ -42,8 +43,7 @@ const Home = (): JSX.Element => {
       </Box>
 
       <Container py={32} mb={16}>
-        <VStack textAlign='center' spacing={4}>
-        </VStack>
+        <VStack textAlign='center' spacing={4}></VStack>
       </Container>
     </Layout>
   )

@@ -106,6 +106,7 @@ const Profile = (): JSX.Element => {
         <Heading mb={8}>Courses</Heading>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8}>
           <SubscribeAcademy key='Developer' contractName='Developer' />
+          <SubscribeAcademy key='Kleros' contractName='Kleros' />
         </SimpleGrid>
       </>
     )

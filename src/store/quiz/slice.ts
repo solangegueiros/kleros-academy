@@ -4,7 +4,7 @@ import { questions } from '@configs/questions'
 import { getRandom } from '@utils/getRandom'
 
 export type ModuleType = '01' | '02' | '03'
-export type CourseType = 'dev' | 'business'
+export type CourseType = 'dev' | 'business' | 'kleros'
 
 export type QuestionType = {
   id: string
@@ -27,7 +27,7 @@ export type AnswerType = {
 
 type QuizStateType = {
   questions: Record<CourseType, Record<ModuleType, QuestionType[]>>
-  questionIndex: { dev: { '01': number } }
+  questionIndex: { kleros: { '01': number } }
   randomQuestions: Record<CourseType, Record<ModuleType, RandomQuestionType>>
   answers: Record<CourseType, Record<ModuleType, AnswerType>>
 }
@@ -35,7 +35,7 @@ type QuizStateType = {
 const initialQuizState: QuizStateType = {
   questions,
   questionIndex: {
-    dev: {
+    kleros: {
       '01': 0,
     },
   },
@@ -55,6 +55,20 @@ const initialQuizState: QuizStateType = {
       },
     },
     business: {
+      '01': {
+        currentIndex: 0,
+        questions: null,
+      },
+      '02': {
+        currentIndex: 0,
+        questions: null,
+      },
+      '03': {
+        currentIndex: 0,
+        questions: null,
+      },
+    },
+    kleros: {
       '01': {
         currentIndex: 0,
         questions: null,
@@ -88,6 +102,23 @@ const initialQuizState: QuizStateType = {
       },
     },
     business: {
+      '01': {
+        isError: false,
+        isLoading: false,
+        result: {},
+      },
+      '03': {
+        isError: false,
+        isLoading: false,
+        result: {},
+      },
+      '02': {
+        isError: false,
+        isLoading: false,
+        result: {},
+      },
+    },
+    kleros: {
       '01': {
         isError: false,
         isLoading: false,

@@ -8,7 +8,7 @@ import {
   useDisclosure,
   chakra,
   useBreakpointValue,
-  Text,
+  // Text,
   Tag,
   Button,
   StackProps,
@@ -62,7 +62,7 @@ export const Header = (props: BoxProps): JSX.Element => {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const bg = useColorModeValue('primary.50', 'dark.500')
   const colorScheme = useColorModeValue('primary', 'light')
-  const { t } = useTranslation('common')
+  // const { t } = useTranslation('common')
   const { isLoggedIn } = useContext(Web3Context)
 
   const { chainId } = useAppSelector(state => state.identity)

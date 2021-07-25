@@ -30,6 +30,7 @@ import { QuizItem } from '../QuizItem'
 enum contractName {
   dev = 'Developer',
   business = 'Business',
+  kleros = 'Kleros',
 }
 interface QuizListProps {
   course: CourseType

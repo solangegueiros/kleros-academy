@@ -29,7 +29,6 @@ const Portfolio = (): JSX.Element => {
         <Box>Portfolio page is for students</Box>
       ) : (
         <SimpleGrid columns={{ md: 2 }} gap={4}>
-          
           {PortfolioProjectComponents}
         </SimpleGrid>
       )}

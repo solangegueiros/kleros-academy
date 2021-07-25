@@ -9,7 +9,7 @@ import { useTransactionCallback } from '@hooks/transactions/useTransactionCallba
 import { useAppSelector } from '@store'
 
 interface SubscribeAcademyProps {
-  contractName: 'Developer' | 'Business'
+  contractName: 'Developer' | 'Business' | 'Kleros'
   buttonText?: string
 }
 

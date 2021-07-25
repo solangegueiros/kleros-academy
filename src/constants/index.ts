@@ -38,10 +38,12 @@ export const COURSE_ADDRESSES: Record<DeployedNetworksType, Record<string, strin
   31: {
     Developer: process.env.NEXT_PUBLIC_DEV_CLASS_01,
     Business: process.env.NEXT_PUBLIC_BUSINESS_CLASS_01,
+    Kleros: process.env.NEXT_PUBLIC_KLEROS_CLASS_01,
   },
   1337: {
     Developer: process.env.NEXT_PUBLIC_LOCAL_DEV_CLASS_01,
     Business: process.env.NEXT_PUBLIC_LOCAL_BUSINESS_CLASS_01,
+    Kleros: process.env.NEXT_PUBLIC_KLEROS_CLASS_01,
   },
 }
 
@@ -54,6 +56,7 @@ export const CONTRACT_ADDRESSES: Record<DeployedNetworksType, Record<ContractNam
     MasterName: process.env.NEXT_PUBLIC_MASTER_NAME,
     Developer: COURSE_ADDRESSES[31].Developer,
     Business: COURSE_ADDRESSES[31].Business,
+    Kleros: COURSE_ADDRESSES[31].Kleros,
   },
   1337: {
     AcademyProjectList: process.env.NEXT_PUBLIC_LOCAL_ACADEMY_PROJECT_LIST,
@@ -63,6 +66,7 @@ export const CONTRACT_ADDRESSES: Record<DeployedNetworksType, Record<ContractNam
     MasterName: process.env.NEXT_PUBLIC_LOCAL_MASTER_NAME,
     Developer: COURSE_ADDRESSES[1337].Developer,
     Business: COURSE_ADDRESSES[1337].Business,
+    Kleros: COURSE_ADDRESSES[1337].Kleros,
   },
 }
 
