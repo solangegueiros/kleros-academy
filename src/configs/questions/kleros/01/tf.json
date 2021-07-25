@@ -38,5 +38,15 @@
       "pt": "A constituição ateniense foi criada porque as pessoas precisavam de algum tipo de estrutura institucional, mas que respeitasse as próprias pessoas."
     },
     "correctAnswer": 1
+  },
+  {
+    "id": "kleros-01-tf-05",
+    "type": "tf",
+    "question": {
+      "en": "Solon says that he was leaving, because the people have to learn how to live with the rules themselves.",
+      "es": "Solon dice que se iba, porque la gente tiene que aprender a vivir con las reglas por ellas mismas.",
+      "pt": "Sólon disse que estava indo embora, porque as próprias pessoas precisam aprender a conviver com as regras por elas mesmas."
+    },
+    "correctAnswer": 1
   }
 ]

@@ -20,5 +20,21 @@
         "pt": "Eles decidem que os cidadãos governem a si próprios." } 
     ],
     "correctAnswer": 3
+  },
+  {
+    "id": "kleros-01-mc-02",
+    "type": "mc",
+    "question": {
+      "en": "What happened to Cleisthenes after the revolution?",
+      "es": "¿Qué pasó con Clístenes después de la revolución?",
+      "pt": "O que aconteceu com Clístenes após a revolução?"
+    },
+    "answers": [
+      { "en": "Like Satoshi Nakamoto, he created the system and disappeared into history.", "es": "Como Satoshi Nakamoto, creó el sistema y desapareció en la historia.", "pt": "Como Satoshi Nakamoto, ele criou o sistema e desapareceu na história." },
+      { "en": "He establish himself as the president of the new system of Democracy", "es": "Se estableció como presidente de el nuevo sistema de la democracia.", "pt": "Ele se estabeleceu como o presidente do novo sistema de democracia." },
+      { "en": "He elected the first democratic president.", "es": "Eligió al primer presidente democrático.", "pt": "Ele elegeu o primeiro presidente democrático." },
+      { "en": "He showed that if the creator remains present, he will strengthen democracy.", "es": "Demostró que si el creador permanece presente, fortalecerá la democracia.", "pt": "Ele mostrou que se o criador se mantiver presente, vai fortaceler a democracia." } 
+    ],
+    "correctAnswer": 0
   }
 ]
